@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding');
+
+body {
+    background: #000;
+    padding-top: 10px;
+  }
+  p {
+    color: lime;
+    font-family: 'Nanum Gothic Coding',serif;
+    font-size: 20px;
+    margin: 10px 0 0 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    opacity: 0;
+    animation: type 4s steps(60, end) forwards;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+  p:nth-child(2) {
+    animation-delay: 1.5s;
+  }
+  p:nth-child(3) {
+    animation-delay: 5s;
+  }
+  p:nth-child(4) {
+    animation-delay: 7s;
+  }
+  p:nth-child(5) {
+    animation-delay: 10s;
+  }
+  p:nth-child(6) {
+    animation-delay: 13s;
+    margin-bottom: 25px;
+  }
+  p:nth-child(7) {
+    animation-delay: 14.25s;
+  }
+  p:nth-child(7) span:first-child {
+    animation-duration: 0.8s;
+  }
+  span {
+    animation: blink 1.8s infinite 8s;
+  }
+  p a {
+    color: lime;
+    text-decoration: none;
+  }
+  @keyframes type {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      width: 99%;
+      opacity: 1;
+    }
+  }
+  @keyframes blink {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  ::selection {
+    background: black;
+  }

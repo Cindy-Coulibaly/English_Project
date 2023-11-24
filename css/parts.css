@@ -1,0 +1,77 @@
+body{
+    background-image: url("../images/shelf3.jfif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3cm;
+    background-color: black;
+    color: white;
+
+ }
+ .parts{
+    width: 5%;
+    height: 10%;
+ }
+ 
+[id='atomic a pack']{
+    position: relative;
+    top:10cm;
+    left:24cm;
+ }
+
+ #batteries{
+    position: relative;
+    top:8cm;
+    left:8cm;
+ }
+
+ #controller{
+    position: relative;
+    top: 12cm;
+ }
+ [id='Damage equitment']{
+    position: relative;
+    top:9cm;
+ }
+ #motherboard{
+    position: relative;
+    top:5.4cm;
+    left:6cm;
+ }
+
+ #motor{
+    position: relative;
+    top:4.75cm;
+    left:10cm;
+ }
+
+ #optic{
+    position: relative;
+    top:9cm;
+    left:3cm;
+ }
+
+ [id='power supply']{
+    position: relative;
+    top:11cm;
+    left:14cm;
+ }
+
+ [id='tools and aluminum sections']{
+    position: relative;
+    top:5cm;
+    left:13cm;
+
+ }
+
+[id='low resistance wiring']{
+    position: relative;
+    top:13cm;
+    left:16cm;
+
+ }
